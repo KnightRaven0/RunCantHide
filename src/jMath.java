@@ -15,15 +15,9 @@ public class jMath {
 		} else {
 			Angle = PI;
 		}
-		//System.out.println(Angle);
-	//	System.out.println(Math.cos(PIo2));
-//		if (DifY < 0) {
-//			Angle += PI;
-//		}
 		if (Angle < 0) {
 			Angle += PIt2;
 		}
-		//System.out.println(Angle);
 		return Angle;
 	}
 }
